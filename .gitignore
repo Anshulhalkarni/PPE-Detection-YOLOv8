@@ -1,0 +1,15 @@
+# 1. Ignore the massive dataset folders
+train/
+valid/
+test/
+data.yaml
+
+# 2. Ignore your Python virtual environment sandbox files
+yolo_env/
+__pycache__/
+*.pyc
+
+# 3. Ignore background YOLO downloads and tracking predictions
+yolov8n.pt
+yolo26n.pt
+runs/detect/predict*/
